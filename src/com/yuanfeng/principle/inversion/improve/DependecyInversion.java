@@ -18,6 +18,7 @@ interface IReceiver {
 }
 
 class Email implements IReceiver {
+	@Override
 	public String getInfo() {
 		return "电子邮件信息: hello,world";
 	}
@@ -25,6 +26,7 @@ class Email implements IReceiver {
 
 //增加微信
 class WeiXin implements IReceiver {
+	@Override
 	public String getInfo() {
 		return "微信信息: hello,ok";
 	}

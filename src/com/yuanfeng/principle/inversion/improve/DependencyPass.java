@@ -78,10 +78,12 @@ interface ITV { // ITV接口
 class OpenAndClose implements IOpenAndClose {
 	private ITV tv;
 
+	@Override
 	public void setTv(ITV tv) {
 		this.tv = tv;
 	}
 
+	@Override
 	public void open() {
 		this.tv.play();
 	}
