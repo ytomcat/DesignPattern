@@ -9,6 +9,20 @@ package com.yuanfeng.principle.segregation;
  * @createTime 2022年04月09日 12:46:00
  */
 public class Segregation1 {
+    public static void main(String[] args) {
+
+    }
+}
+class A{
+
+}
+class B{
+
+}
+class C{
+
+}
+class D{
 
 }
 interface Interface1{
